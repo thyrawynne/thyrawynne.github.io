@@ -1,30 +1,30 @@
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Distribute images evenly */
-  margin: 25px auto; /* Add some margin for better layout */
+  justify-content: space-around; 
+  margin: 25px auto; 
 }
 
 .gallery-item {
   margin: 25px;
-  text-align: center; /* Center captions below images */
+  text-align: center; 
 }
 
 .gallery-item img {
-  width: 210px; /* Adjust image width as needed */
+  width: 210px; 
   height: auto;
 }
 
 .gallery-item figcaption {
-  font-style: italic; /* Add a little style to captions */
+  font-style: italic; 
   font-size: 22px;
 }
 
 body {
-  background-image: url("img/img4.jpg"); /* Replace with your image path */
-  background-size: cover; /* Stretch image to cover the entire body */
-  background-repeat: no-repeat; /* Prevent image from repeating */
-  background-position: center; /* Center the image horizontally and vertically */
+  background-image: url("img/img4.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
   font-family: 'Times New Roman', Times, serif; /* Set a base font for your website */
 }
 
@@ -45,50 +45,50 @@ body {
 }
 
 body {
-  background-image: url("img/img4.jpg"); /* Replace with your image path */
+  background-image: url("img/img4.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: Arial, sans-serif; /* Set a base font for your website */
+  font-family: Arial, sans-serif; 
 }
 
 .blog-post {
-  margin: 20px; /* Add some margin for better layout */
+  margin: 20px; 
   padding: 10px;
-  border: 1px solid #f086c0; /* Optional: Add a border for each blog post */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  border: 1px solid #f086c0; 
+  border-radius: 5px; 
 }
 
 .blog-post h2 {
-  font-size: 1.2em; /* Adjust heading size as needed */
-  margin-bottom: 5px; /* Add some space below the heading */
+  font-size: 1.2em; 
+  margin-bottom: 5px; 
 }
 
 body {
-  background-image: url("img/img4.jpg"); /* Replace with your image path */
+  background-image: url("img/img4.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: Arial, sans-serif; /* Set a base font for your website */
+  font-family: Arial, sans-serif; 
 }
 
 section {
-  margin: 20px; /* Add some margin for better layout */
-  padding: 10px; /* Add some padding for content */
-  border: 1px solid #f086c0; /* Optional: Add a border for sections */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  margin: 20px; 
+  padding: 10px; 
+  border: 1px solid #f086c0; 
+  border-radius: 5px; 
 }
 
 section h2 {
-  font-size: 1.2em; /* Adjust heading size as needed */
-  margin-bottom: 5px; /* Add some space below the heading */
+  font-size: 1.2em; 
+  margin-bottom: 5px; 
 }
 
 @font-face {
-  font-family: 'MyVintageFont'; /* Replace with your font file name (without extension) */
-  src: url('myvintagefont.ttf') format('truetype'); /* Adjust file path and format */
+  font-family: 'MyVintageFont'; 
+  src: url('myvintagefont.ttf') format('truetype'); 
 }
 
 body {
-  font-family: 'MyVintageFont', cursive; /* Choose your vintage font or a combination */
+  font-family: 'MyVintageFont', cursive;
 }
