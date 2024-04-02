@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Home - Wynne's Personal Homepage</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add animation styles here */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn ease-in 1s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .slide-in-right {
+      opacity: 0;
+      transform: translateX(20px);
+      animation: slideInRight ease-in 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+
+    .profile-pic {
+      width: 250px;
+      height: 320px;
+      border-radius: 20%;
+      margin: 20px;
+      animation: pop-in ease-in 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes pop-in {
+      from {
+        transform: scale(0);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
+
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #about p {
+      flex: 1;
+      text-align: left; 
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <h1>Home</h1>
+    <h1>Wynne's Personal Homepage</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="gallery.html">Gallery</a>
@@ -16,20 +86,25 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
+
   <main>
-    <section id="about">
-      <h2>About me</h2>
+    <section id="about" class="bordered-section fade-in">
+      <h2>About Me</h2>
+      <img src="profile.jpeg" alt="Wynne's Profile Picture" class="profile-pic">
       <p>
-        Hi! It's Thyra Wynne Mandak. I would love if you call me by my middle name Wynne. Here's my little Personal Homepage.       </p>
+        Hi! It's Thyra Wynne Mandak. But you can call me by my middle name Wynne. Welcome to my little personal homepage! I'm a creative individual with a passion for learning and exploring new things. Whether it's getting lost in a good book, discovering hidden gems in movies, or venturing out on exciting trips, I find joy in the experiences that life offers. I'm also eager to connect with others who share similar interests. Feel free to browse through my website and get to know me better!
+      </p>
     </section>
-    <section id="interests">
-      <h2>My Interest</h2>
+
+    <section id="interests" class="bordered-section slide-in-right">
+      <h2>My Interests</h2>
       <ul>
-        <li>Through my gallery page, you will see my favs books until this day. So, reading are one of my favorite thing to do.</li>
-        <li>Watching new movies at the cinema.</li>
-        <li>Try new experience through everything! e.g; books, movies, and trip.</li>
+        <li>Reading is a favorite pastime! Check out my favorite books on the <a href="gallery.html">Gallery</a> page.</li>
+        <li>Exploring new movies at the cinema is always exciting!</li>
+        <li>I embrace new experiences, whether it's reading books, watching films, or embarking on trips.</li>
       </ul>
     </section>
   </main>
 </body>
+
 </html>
