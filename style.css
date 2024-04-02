@@ -152,3 +152,47 @@ main {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 0 auto; /* Center the grid horizontally */
+  padding: 20px; /* Add some padding inside the grid */
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 5px; /* Rounded corners for a polished look */
+}
+
+.gallery-item {
+  position: relative; /* Needed for hover effects */
+  overflow: hidden; /* Prevent images from overflowing container */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth hover transitions */
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1); /* Slightly enlarge images on hover */
+  filter: saturate(1.2); /* Increase image saturation on hover */
+}
+
+/* Image captions */
+.gallery-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 10px;
+  text-align: center;
+  opacity: 0; /* Hide captions initially */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover figcaption {
+  opacity: 1; /* Reveal captions on hover */
+}
