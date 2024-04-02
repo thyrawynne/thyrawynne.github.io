@@ -195,3 +195,9 @@ main {
 .gallery-item:hover figcaption {
   opacity: 1; 
 }
+
+.form-group {
+  display: grid;
+  grid-template-columns: auto; 
+  gap: 10px; 
+}
