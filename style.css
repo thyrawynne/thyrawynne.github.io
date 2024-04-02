@@ -75,7 +75,7 @@ body {
 section {
   margin: 20px; 
   padding: 10px; 
-  border: 1px solid #f086c0; 
+  border: 1px solid #bc729b; 
   border-radius: 5px; 
 }
 
@@ -91,4 +91,64 @@ section h2 {
 
 body {
   font-family: 'MyVintageFont', cursive;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #222;
+}
+
+main {
+  padding: 20px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  margin: 0 0 10px 0;
+}
+
+.bordered-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
