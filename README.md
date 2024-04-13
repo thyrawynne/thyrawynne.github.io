@@ -1,13 +1,41 @@
-## Daftar Perintah Git
+## Project Title: Wynne's Personal Homepage
 
-Berikut adalah beberapa contoh perintah Git yang sering digunakan:
+## Description:
 
-* `git clone`: Mengunduh repositori dari GitHub ke komputer Anda.
-* `git add`: Menambahkan file ke staging area.
-* `git commit`: Menyimpan perubahan pada file.
-* `git push`: Mengirim perubahan ke repositori GitHub.
-* `git pull`: Mengunduh perubahan terbaru dari repositori GitHub.
-* `git branch`: Membuat branch baru.
-* `git checkout`: Beralih ke branch lain.
-* `git merge`: Menggabungkan dua branch.
-* `git reset`: Membatalkan perubahan.
+This repository contains the codebase for my website developed as part of the Pemrograman Web course. This project was a fantastic opportunity to solidify my understanding of HTML, CSS, and JavaScript.
+
+## Technologies Used:
+
+    HTML5
+    CSS3
+    JavaScript (Vanilla JS)
+
+## Deployment:
+
+This website is deployed on GitHub Pages. You can view the live version at:
+https://thyrawynne.github.io/
+
+## License:
+
+    All Rights Reserved.
+
+## Additional Notes:
+![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/70219fcd-013e-4016-9b7e-cb2ed25e5154)
+Website Structure:
+
+    index.html (Home)
+    gallery.html (Gallery)
+    blog.html (Blog)
+    contact.html (Contact)
+    style.css (Styling)
+    script.js (Functionality)
+    assets/ (Images, Fonts)
+
+Content:
+
+    Home: About Me, Navigation
+    Gallery: Favorite Books (titles, images, descriptions)
+    Blog: Technology and the Future
+    Contact: Contact Information (email, social media)
+
+
