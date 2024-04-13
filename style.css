@@ -201,3 +201,53 @@ main {
   grid-template-columns: auto; 
   gap: 10px; 
 }
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .ar-vr-comparison {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ar-section,
+  .vr-section {
+    width: 100%;
+  }
+
+  .ar-image,
+  .vr-image {
+    width: 100%;
+  }
+
+  .ar-description,
+  .vr-description {
+    margin: 0 1rem;
+  }
+
+  .ar-applications,
+  .vr-applications {
+    padding: 0 1rem;
+  }
+}
+
+/* Add some animations and transitions */
+.ar-image,
+.vr-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ar-image:hover,
+.vr-image:hover {
+  transform: scale(1.05);
+}
+
+.ar-icon,
+.vr-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ar-icon:hover,
+.vr-icon:hover {
+  transform: rotate(360deg);
+}
+
