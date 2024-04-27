@@ -20,8 +20,7 @@ https://thyrawynne.github.io/
     All Rights Reserved.
 
 ## Additional Notes:
-![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/a420e6d7-02f0-49eb-a5d7-d7f350fadd1e)
-
+![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/70219fcd-013e-4016-9b7e-cb2ed25e5154)
 Website Structure:
 
     index.html (Home)
