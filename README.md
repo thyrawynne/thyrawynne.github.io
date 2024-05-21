@@ -1,4 +1,4 @@
-# Responsive-Blog-Website
+# Wynne's Response Website
 
 The PHP & MySQL Blog App with Admin Panel project is a web application that allows users to create and manage blog posts, categories, and users. The app is built using PHP and MySQL, two popular technologies for web development, and features a robust CRUD functionality that enables users to Create, Read, Update, and Delete posts, categories, and users.
 
