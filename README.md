@@ -1,42 +1,37 @@
-## Project Title: Wynne's Personal Homepage
+# Responsive-Blog-Website
 
-## Description:
+The PHP & MySQL Blog App with Admin Panel project is a web application that allows users to create and manage blog posts, categories, and users. The app is built using PHP and MySQL, two popular technologies for web development, and features a robust CRUD functionality that enables users to Create, Read, Update, and Delete posts, categories, and users.
 
-This repository contains the codebase for my website developed as part of the Pemrograman Web course. This project was a fantastic opportunity to solidify my understanding of HTML, CSS, and JavaScript.
+# Technologies Used
 
-## Technologies Used:
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- XAMPP Web Server
 
-    HTML5
-    CSS3
-    JavaScript (Vanilla JS)
+# Features
 
-## Deployment:
+- Blog post management (CRUD functionality)
+- Category management (CRUD functionality)
+- User management and authentication (CRUD functionality)
+- Sign in and sign up functionality
+- Dashboard for users and admin
+- Responsive Design
+- Search funcrionality
+- Live demo available
 
-This website is deployed on GitHub Pages. You can view the live version at:
-https://thyrawynne.github.io/
+# Screenshots
 
-## License:
+- users Table (for storing users data both job seeker and provider ) (user field can be seeker or provider based on they select on the sign up page)
 
-    All Rights Reserved.
+![Screenshot (118)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/user.png?raw=true)
 
-## Additional Notes:
-![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/a420e6d7-02f0-49eb-a5d7-d7f350fadd1e)
+- posts Table
 
-Website Structure:
+![Screenshot (119)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/post.png?raw=true)
 
-    index.html (Home)
-    gallery.html (Gallery)
-    blog.html (Blog)
-    contact.html (Contact)
-    style.css (Styling)
-    script.js (Functionality)
-    assets/ (Images, Fonts)
+- categories Table
 
-Content:
-
-    Home: About Me, Navigation
-    Gallery: Favorite Books (titles, images, descriptions)
-    Blog: Technology and the Future
-    Contact: Contact Information (email, social media)
-
-
+![Screenshot (119)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/categ.png?raw=true)
