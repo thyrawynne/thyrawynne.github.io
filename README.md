@@ -51,11 +51,11 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 
 - users Table (for storing users data both job seeker and provider ) (user field can be seeker or provider based on they select on the sign up page)
 
-  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/61f7ec69-6145-4220-8577-05364fdacbeb)
+  <img width="959" alt="Screenshot 2024-05-27 153704" src="https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/e215fdaf-209c-480a-9213-302ca04c32fd">
 
 - posts Table
 
-  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/35443e70-be69-48e3-8ca1-4d456c81af4b)
+  <img width="957" alt="Screenshot 2024-05-27 153757" src="https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/0bea1c50-ccb3-4543-a7e9-cd96839387bf">
 
 - categories Table
 
