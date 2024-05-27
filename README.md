@@ -47,7 +47,7 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 # Screenshots
 
 - website's landing page
-  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/d66400f6-9672-4519-92fc-0d1547283fd1)
+  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/60a8961e-20db-43f3-8ceb-6988387dff3d)
 
 - users Table (for storing users data both job seeker and provider ) (user field can be seeker or provider based on they select on the sign up page)
 
