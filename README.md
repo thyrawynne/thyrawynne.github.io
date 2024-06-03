@@ -24,36 +24,39 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 
 # Live Demo
 
-|  #  | WebPage           | Live Demo                                                                                 |
-| :-: | ----------------- | ----------------------------------------------------------------------------------------- |
-| 01  | Index             | [Live Demo](https://underemployed.lovestoblog.com/index.php)                              |
-| 02  | Blog              | [Live Demo](https://underemployed.lovestoblog.com/blog.php)                               |
-| 03  | Category_Post     | [Live Demo](https://underemployed.lovestoblog.com/category-posts.php)                     |
-| 04  | About             | [Live Demo](https://underemployed.lovestoblog.com/about.php)                              |
-| 05  | Services          | [Live Demo](https://underemployed.lovestoblog.com/services.php)                           |
-| 06  | Contact           | [Live Demo](https://underemployed.lovestoblog.com/contact.php)                            |
-| 07  | SignIn            | [Live Demo](https://underemployed.lovestoblog.com/signin.php)                             |
-| 08  | SignUp            | [Live Demo](https://underemployed.lovestoblog.com/signup.php)                             |
-| 09  | Dashboard         | [Live Demo](https://underemployed.github.io/blog_website_template/dashboard.html)         |
-| 10  | Edit_Posts        | [Live Demo](https://underemployed.github.io/blog_website_template/edit-post.html)         |
-| 11  | Add_Post          | [Live Demo](https://underemployed.github.io/blog_website_template/add-post.html)          |
-| 12  | Add_User          | [Live Demo](https://underemployed.github.io/blog_website_template/add-user.html)          |
-| 13  | Manage_Users      | [Live Demo](https://underemployed.github.io/blog_website_template/manage-users.html)      |
-| 14  | Edit_User         | [Live Demo](https://underemployed.github.io/blog_website_template/edit-user.html)         |
-| 15  | Add_Category      | [Live Demo](https://underemployed.github.io/blog_website_template/add-category.html)      |
-| 16  | Manage_Categories | [Live Demo](https://underemployed.github.io/blog_website_template/manage-categories.html) |
-| 16  | Edit_Category     | [Live Demo](https://underemployed.github.io/blog_website_template/edit-category.html)     |
+|  #  | WebPage           | Live Demo                                                     |
+| :-: | ------------------|---------------------------------------------------------------|
+| 01  | Index             | [Live Demo](http://localhost/php/index.php)                   |
+| 02  | Blog              | [Live Demo](http://localhost/php/blog.php)                    |
+| 03  | Category_Post     | [Live Demo](http://localhost/php/category-posts.php)          |
+| 04  | About             | [Live Demo](http://localhost/php/about.php)                   |
+| 05  | Gallery           | [Live Demo](http://localhost/php/gallery.php)                 |
+| 06  | Contact           | [Live Demo](http://localhost/php/contact.php)                 |
+| 07  | Sign In           | [Live Demo](http://localhost/php/signin.php)                  |
+| 08  | Sign Up           | [Live Demo](http://localhost/php/signup.php)                  |
+| 09  | Dashboard         | [Live Demo](http://localhost/php//admin/index.php)            |
+| 10  | Edit_Posts        | [Live Demo](http://localhost/php/admin/edit-post.php)         |
+| 11  | Add_Post          | [Live Demo](http://localhost/php/admin/add-post.php)          |
+| 12  | Add_User          | [Live Demo](http://localhost/php/admin/add-user.php)          |
+| 13  | Manage_Users      | [Live Demo](http://localhost/php/admin/manage-users.php)      |
+| 14  | Edit_User         | [Live Demo](http://localhost/php/admin/edit-user.php?id=5)    |
+| 15  | Add_Category      | [Live Demo](http://localhost/php/admin/add-category.php)      |
+| 16  | Manage_Categories | [Live Demo](http://localhost/php/admin/manage-categories.php) |
+| 16  | Edit_Category     | [Live Demo](http://localhost/php/admin/edit-category.php)     |
 
 # Screenshots
 
+- website's landing page
+  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/60a8961e-20db-43f3-8ceb-6988387dff3d)
+
 - users Table (for storing users data both job seeker and provider ) (user field can be seeker or provider based on they select on the sign up page)
 
-![Screenshot (118)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/user.png?raw=true)
+  <img width="959" alt="Screenshot 2024-05-27 153704" src="https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/e215fdaf-209c-480a-9213-302ca04c32fd">
 
 - posts Table
 
-![Screenshot (119)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/post.png?raw=true)
+  <img width="957" alt="Screenshot 2024-05-27 153757" src="https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/0bea1c50-ccb3-4543-a7e9-cd96839387bf">
 
 - categories Table
 
-![Screenshot (119)](https://github.com/Underemployed/PHP-MySQL-Blog-Website-with-Admin-Panel-Backend/blob/main/categ.png?raw=true)
+  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/51a14a29-9b79-4a0a-87e9-63a471358284)
