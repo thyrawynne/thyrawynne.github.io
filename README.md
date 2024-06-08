@@ -25,6 +25,7 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 # Live Demo
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 |  #  | WebPage           | Live Demo                                                     |
 | :-: | ------------------|---------------------------------------------------------------|
 | 01  | Index             | [Live Demo](http://localhost/php/index.php)                   |
@@ -44,6 +45,27 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 | 15  | Add_Category      | [Live Demo](http://localhost/php/admin/add-category.php)      |
 | 16  | Manage_Categories | [Live Demo](http://localhost/php/admin/manage-categories.php) |
 | 16  | Edit_Category     | [Live Demo](http://localhost/php/admin/edit-category.php)     |
+=======
+|  #  | WebPage           | Live Demo                                                                                 |
+| :-: | ----------------- | ----------------------------------------------------------------------------------------- |
+| 01  | Index             | [Live Demo](http://localhost/php/index.php)                                               |
+| 02  | Blog              | [Live Demo](http://localhost/php/blog.php)                                                |
+| 03  | Category_Post     | [Live Demo](http://localhost/php/category-posts.php)                                      |
+| 04  | About             | [Live Demo](http://localhost/php/about.php)                                               |
+| 05  | Gallery           | [Live Demo](http://localhost/php/gallery.php)                                             |
+| 06  | Contact           | [Live Demo](http://localhost/php/contact.php)                                             |
+| 07  | Sign In           | [Live Demo](http://localhost/php/signin.php)                                              |
+| 08  | Sign Up           | [Live Demo](http://localhost/php/signup.php)                                              |
+| 09  | Dashboard         | [Live Demo](http://localhost/php//admin/index.php)                                        |
+| 10  | Edit_Posts        | [Live Demo](http://localhost/php/admin/edit-post.php)                                     |
+| 11  | Add_Post          | [Live Demo](http://localhost/php/admin/add-post.php)                                      |
+| 12  | Add_User          | [Live Demo](http://localhost/php/admin/add-user.php)                                      |
+| 13  | Manage_Users      | [Live Demo](http://localhost/php/admin/manage-users.php)                                  |
+| 14  | Edit_User         | [Live Demo](http://localhost/php/admin/edit-user.php?id=5)                                |
+| 15  | Add_Category      | [Live Demo](http://localhost/php/admin/add-category.php)                                  |
+| 16  | Manage_Categories | [Live Demo](http://localhost/php/admin/manage-categories.php)                             |
+| 16  | Edit_Category     | [Live Demo](http://localhost/php/admin/edit-category.php)                                 |
+>>>>>>> 12054e05e549f942afefdf672552b32519847cce
 
 # Screenshots
 
@@ -60,4 +82,8 @@ The PHP & MySQL Blog App with Admin Panel project is a web application that allo
 
 - categories Table
 
+<<<<<<< HEAD
   ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/51a14a29-9b79-4a0a-87e9-63a471358284)
+=======
+  ![image](https://github.com/thyrawynne/thyrawynne.github.io/assets/130913231/51a14a29-9b79-4a0a-87e9-63a471358284)
+>>>>>>> 12054e05e549f942afefdf672552b32519847cce
